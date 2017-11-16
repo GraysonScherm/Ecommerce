@@ -1,0 +1,153 @@
+body {
+  padding-top: 54px;
+  background: #EEDB74 ;
+  font-family: 'Josefin Sans', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.navbar-default {
+  background-color: #6C4B1A;
+  border-color: #E7E7E7;
+}
+
+.navbar-brand {
+  color: #EEDB74;
+  font-family: 'Yesteryear', cursive;
+  font-size: 28px;  
+}
+
+.navbar-brand:hover {
+  color: rgb(190, 174, 90);
+}
+
+.nav-link {
+  color: #EEDB74;
+}
+
+.nav-link:hover {
+  color: rgb(190, 174, 90);
+}
+
+.list-group-item {
+  background: #EEDB74;
+  color: #6C4B1A;
+}
+
+.list-group-item:hover {
+  color: rgb(61, 41, 15);
+}
+
+.py-5 {
+  background-color: #6C4B1A;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.35);
+  max-width: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.card-body {
+  background-color: rgba(185, 128, 47, 0.808);
+  border-color: #6C4B1A;
+}
+
+.card {
+  border-color: #6C4B1A;
+}
+
+.card-title a {
+  color: #16191b;  
+}
+
+.card-footer {
+  background-color: #6C4B1A;
+}
+
+.jumbotron {
+  background: #EEDB74;
+  color: #6C4B1A;
+  border-radius: 0px;
+}
+
+.jumbotron-sm { 
+  padding-top: 24px;
+  padding-bottom: 24px; 
+}
+
+.jumbotron small {
+  color: #6C4B1A;
+}
+
+.h1 small {
+  font-size: 24px;
+}
+
+.btn-primary {
+  background: #EEDB74;
+  color: #6C4B1A;
+  border-color: #6C4B1A;
+}
+
+.btn {
+  margin-bottom: 10px;
+}
+
+/*Cart CSS*/
+.dropdown-toggle{
+  color:#EEDB74;
+}
+
+.dropdown-toggle:hover{
+  color: rgb(190, 174, 90);
+}
+
+ul.dropdown-cart{
+  min-width:250px;
+}
+ul.dropdown-cart li .item{
+  display:block;
+  padding:3px 10px;
+  margin: 3px 0;
+}
+ul.dropdown-cart li .item:hover{
+  background-color:#f3f3f3;
+}
+ul.dropdown-cart li .item:after{
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+ul.dropdown-cart li .item-left{
+  float:left;
+}
+ul.dropdown-cart li .item-left img,
+ul.dropdown-cart li .item-left span.item-info{
+  float:left;
+}
+ul.dropdown-cart li .item-left span.item-info{
+  margin-left:10px;   
+}
+ul.dropdown-cart li .item-left span.item-info span{
+  display:block;
+}
+ul.dropdown-cart li .item-right{
+  float:right;
+}
+
+.text-center{
+  padding-left: 10px;
+}
